@@ -1,0 +1,27 @@
+Q1.Create a table (student) with 3 columns (rollno, name, course).
+ans1.create table student (rollno int,name text,course text);
+
+output: CREATE TABLE
+
+Q2.Insert records for 4 students.
+ans2. insert into student values(1,'Atul','Python'),(2,'Muskan','Java'),(3,'Anu','C'),(4,'Khushi','C++');
+
+output: insert 0 4
+
+Q3.Write a Select query to fetch all the students.
+ans3.select * from student;
+
+Q4.Update the student name of rollno 3 with ‘Mohan’
+ans4. update student set name='Mohan' where name='Anu';
+
+Q5.Delete any student from table with their rollno.
+ans5. delete from student where rollno='3';
+
+Q6.Delete all the data from student table.
+ANS6. TURNCATE student;
+
+Q7.Drop the student table.
+ans7.drop delete student;
+
+
+
