@@ -21,7 +21,13 @@ Q6.Delete all the data from student table.
 ANS6. TURNCATE student;
 
 Q7.Drop the student table.
-ans7.drop delete student;
+ans7.drop table student;
 
-
-
+8. Create Courses table (cid, cname) where cid is a primary key and Student table
+(rollno, name, cid) where rollno is a primary key and cid is a foreign key.
+Ans8. 1. create table courses (cid int primary key, cname text);
+      2. create table student (rollno int primary key, name text, cid int, constraint fk_courses foreign key(cid) referecnces courses(cid));
+9. Insert data in both the tables.
+Ans9. insert into courses values (1,'C'),(2,'C++'),(3,'Java'),(4,'Python');
+      insert into student values (1,'Atul',2),(2,'Prateek',4),(3,'Saurabh',1);
+    
