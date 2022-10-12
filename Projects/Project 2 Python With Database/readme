@@ -1,0 +1,16 @@
+In this project, I have to create a digital phone book as we do in our old times and I have to make this thing with the help of a database in this project I am using
+PostgreSQL and connect this with python...
+Now Let's Talk About How To Make this project:
+1. I have to create a login system
+2. I have to create a registration for the database
+3. then ask a user to enter a username and password if it is available in my database then log in otherwise give the registration option
+4. In registration I will ask the user to enter his/her username and password for username and then create a database with help of these credentials
+5. Then I have to give them options like:
+   what you want to do:
+   1. View Contacts
+   2. Add Contact
+   3. Search Contact
+   4. Delete Contact
+   5. Update Contact
+   
+So with the help of python I write all code and connect with the database and create a table and add all these things in the table yeah that's it
