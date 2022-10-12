@@ -1,5 +1,5 @@
 In this project, I have to create a digital phone book as we do in our old times, and I have to make this thing with the help of a database in this project I am using.
-PostgreSQL and connect this with python.
+I am using PostgreSQL and connect this with python.
 Now Let's Talk About How To Do this project:
 1. I have to create a login system
 2. I have to create a registration for the database
