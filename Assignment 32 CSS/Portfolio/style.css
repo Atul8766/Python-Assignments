@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    /* background-image: url("Download Desert Sunset Landscape With Cactus And Mountain for free.jpeg"); */
+    background-image: linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.87)),url("Download Desert Sunset Landscape With Cactus And Mountain for free.jpeg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.navbar
+{  
+    columns: 2;
+    height: 80px;
+    background: none;
+}
+.title
+{
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-left: 5.5rem;
+    margin-top: 1.5rem;
+    color: white;
+}
+.button
+{
+    padding: 15px;
+    width: 620px;
+    /* background-color: aqua;          */
+    margin-left: -10rem;
+}
+button
+{
+    margin: 0 auto;
+    width: 5rem;
+    height: 2rem;
+    /* margin: 10px; */
+    background-color: tomato;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 9px;
+    background: none;
+}
+.heading
+{
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 12rem;
+    color: white;
+}
+.button1
+{
+    margin: 0 auto;
+    width: 160px;
+    margin-top: 2rem;
+    border-style: none  ;
+    background-color: rgba(255, 44, 79, 0.808);
+}
+.butt
+{
+    width: 140px;
+}
+
+@media (max-width:740px)
+{
+body
+    {
+        /* background-image: url("Download Desert Sunset Landscape With Cactus And Mountain for free.jpeg"); */
+        background-image: linear-gradient(rgba(0,0,0,0.87),rgba(0,0,0,0.87)),url("Download Desert Sunset Landscape With Cactus And Mountain for free.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+.heading
+    {
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 12rem;
+    color: white;
+    }
+}
