@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.nav
+{
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+    height: 80px;
+}
+.color
+{
+    height: 40px;
+    background-color: rgba(18, 18, 185, 0.507);
+    margin-top: 1.3rem;
+    border-style: groove;
+}
+
+button
+{
+    color: white ;
+    margin: 0 auto;
+    width: 5rem;
+    height: 1.8rem;
+    margin-left: 9.5rem;
+    background-color: rgba(18, 18, 185, 0);
+    border-style: none;
+    border: none;
+    margin-top: 0.4rem;
+    font-size: 1.5rem;
+}
+
+button:hover
+{
+    background-color: darkgrey;
+}

@@ -1,0 +1,40 @@
+img
+{
+    height: auto;
+    max-width: 100%;
+}
+.images
+{
+    column-count: 3;
+    margin: 10px;
+    padding: 10px;
+}
+.image
+{
+    margin-bottom: 10px;
+}
+img:hover {
+    transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:998px)
+{
+     /* Apply CSS Below width 998px */
+     .images
+     {
+        column-count: 2;
+     }
+}
+@media (max-width:600px)
+{
+     /* Apply CSS Below width 998px */
+     .images
+     {
+        column-count: 1;
+     }
+}

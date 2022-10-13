@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.title
+{
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+    background-image: url(people-2591874_1920.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+h1
+{
+    margin: 0 auto;
+    width: 450px;
+    padding-top: 18rem;
+    font-size: 3rem;
+    padding-right: 50rem;
+    color:#f3960a;
+}
+.subtitle
+{
+    margin: 0 auto;
+    width:  680px;
+    margin-top:5px;
+    font-size: 2rem;
+    margin-left: 3.5rem;
+    font-weight: bold;
+    color:#f3670ad5;  
+}
