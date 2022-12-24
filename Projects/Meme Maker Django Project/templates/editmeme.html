@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Meme</title>
+    <style>
+        #id
+        {
+            border: none;
+        }
+        #text1 ,#text2
+        {
+            height: 35px;
+            font-size: 35px;
+        }
+        #btn
+        {
+            height: 25px;
+            font-size: 20px;
+            width: 100px;
+    
+        }
+    </style>
+</head>
+<body>
+    <form action="/details/" method="POST">
+    MEME ID : <input id="id" type="text" name="id" value="{{ meme_id }}" readonly><br><br>
+    <input id="text1" type="text" name="text1" placeholder="First Text" autocomplete="off"><br><br>
+    <input id="text2" type="text" name="text2" placeholder="Second Text" autocomplete="off"><br><br>
+    <button id="btn">Submit</button>
+    </form>
+</body>
+</html>
